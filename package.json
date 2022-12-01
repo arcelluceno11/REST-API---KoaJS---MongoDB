@@ -1,0 +1,21 @@
+{
+  "name": "rest-api---mongodb",
+  "version": "1.0.0",
+  "description": "Test KoaJS REST with MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Arcel Luceno",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "mongodb": "^4.12.1",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  }
+}

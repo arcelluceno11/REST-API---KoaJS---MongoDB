@@ -1,0 +1,1 @@
+const {storeBook, getAllBooks, getBook, updateBook, deleteBook} = require('../db/books.model');
