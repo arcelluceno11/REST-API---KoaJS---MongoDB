@@ -31,7 +31,7 @@ router.delete('/:id', async ctx =>{
 })
 
 //localhost:8080/books/{id} PUT/PATCH
-router.get('/:id', async ctx =>{
+router.put('/:id', async ctx =>{
     const id = ctx.params.id;
     let book = ctx.request.body;
     book = updateBook(id, book);
